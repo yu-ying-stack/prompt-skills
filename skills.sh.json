@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Code Generation",
+      "description": "生成各类代码：前端组件、后端服务、API、CLI工具等",
+      "skills": ["ai-coding-prompts"]
+    }
+  ]
+}
