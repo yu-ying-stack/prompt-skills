@@ -1,0 +1,16 @@
+# Qoder IDE 缓存
+.qoder/
+
+# 源文档（不需要发布）
+docx/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo

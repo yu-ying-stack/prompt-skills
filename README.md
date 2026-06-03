@@ -1,6 +1,6 @@
 # AI Coding Prompt 模板库
 
-[![skills.sh installs](https://skills.sh/b/YOUR_GITHUB_USERNAME/prompt-skills)](https://skills.sh/YOUR_GITHUB_USERNAME/prompt-skills)
+[![skills.sh installs](https://skills.sh/b/yu-ying-stack/prompt-skills)](https://skills.sh/yu-ying-stack/prompt-skills)
 
 > 研发团队 AI 编码提示词标准化工具包 —— 56 个专业 Prompt 模板，覆盖研发全流程 10 大场景。
 
@@ -15,7 +15,7 @@
 ## 快速安装
 
 ```bash
-npx skills add YOUR_GITHUB_USERNAME/prompt-skills
+npx skills add yu-ying-stack/prompt-skills
 ```
 
 安装后，在任意支持的 AI 代理中自然语言描述需求即可使用：
