@@ -1,6 +1,10 @@
 # Qoder IDE 缓存
 .qoder/
 
+# 安装文件
+.agents
+skills-lock.json
+
 # 源文档（不需要发布）
 docx/
 
