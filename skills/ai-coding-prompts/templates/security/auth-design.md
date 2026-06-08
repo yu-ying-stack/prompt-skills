@@ -34,11 +34,10 @@
 
 请基于以下信息，设计一套完整的认证授权方案：
 
-- **认证授权需求**：`AUTH_REQUIREMENTS`
-- **用户类型**：`USER_TYPES`
-- **系统架构**：`SYSTEM_ARCHITECTURE`
-- **合规要求**：`COMPLIANCE`
-
+- **认证授权需求**：{{AUTH_REQUIREMENTS}}
+- **用户类型**：{{USER_TYPES}}
+- **系统架构**：{{SYSTEM_ARCHITECTURE}}
+- **合规要求**：{{COMPLIANCE}}
 请从以下维度进行完整的设计：
 
 ### 1. OAuth2 / OIDC 流程设计

@@ -34,11 +34,10 @@
 
 请基于以下信息，设计一套完整的数据隐私合规方案：
 
-- **数据类型**：`DATA_TYPES`
-- **处理目的**：`PROCESSING_PURPOSES`
-- **管辖区域**：`JURISDICTIONS`
-- **系统架构**：`SYSTEM_ARCHITECTURE`
-
+- **数据类型**：{{DATA_TYPES}}
+- **处理目的**：{{PROCESSING_PURPOSES}}
+- **管辖区域**：{{JURISDICTIONS}}
+- **系统架构**：{{SYSTEM_ARCHITECTURE}}
 请从以下维度进行完整的隐私合规设计：
 
 ### 1. GDPR / CCPA 合规分析

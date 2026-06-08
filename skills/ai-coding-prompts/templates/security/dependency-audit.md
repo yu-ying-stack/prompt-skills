@@ -34,11 +34,10 @@
 
 请基于以下信息，对项目依赖进行全面的安全审计：
 
-- **依赖声明文件**：`DEPENDENCY_FILE`
-- **编程语言**：`LANG`
-- **运行环境**：`ENVIRONMENT`
-- **合规要求**：`COMPLIANCE`
-
+- **依赖声明文件**：{{DEPENDENCY_FILE}}
+- **编程语言**：{{LANG}}
+- **运行环境**：{{ENVIRONMENT}}
+- **合规要求**：{{COMPLIANCE}}
 请从以下维度进行完整的依赖安全审计：
 
 ### 1. CVE 扫描策略

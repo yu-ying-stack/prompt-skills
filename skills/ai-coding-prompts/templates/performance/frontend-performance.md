@@ -35,12 +35,11 @@
 
 请基于以下信息，设计一套完整的前端性能优化方案：
 
-- **性能指标**：`PERF_METRIC`
-- **当前值**：`CURRENT_VALUE`
-- **目标值**：`TARGET_VALUE`
-- **技术栈**：`TECH_STACK`
-- **页面类型**：`PAGE_TYPE`
-
+- **性能指标**：{{PERF_METRIC}}
+- **当前值**：{{CURRENT_VALUE}}
+- **目标值**：{{TARGET_VALUE}}
+- **技术栈**：{{TECH_STACK}}
+- **页面类型**：{{PAGE_TYPE}}
 请从以下维度进行完整的前端性能优化：
 
 ### 1. 资源加载优化

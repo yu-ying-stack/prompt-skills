@@ -35,12 +35,11 @@
 
 请基于以下信息，设计一套完整的 API 接口方案：
 
-- **业务领域**：`DOMAIN`
-- **消费方**：`CONSUMERS`
-- **协议类型**：`PROTOCOL`
-- **认证方式**：`AUTH_METHOD`
-- **版本策略**：`VERSIONING_STRATEGY`
-
+- **业务领域**：{{DOMAIN}}
+- **消费方**：{{CONSUMERS}}
+- **协议类型**：{{PROTOCOL}}
+- **认证方式**：{{AUTH_METHOD}}
+- **版本策略**：{{VERSIONING_STRATEGY}}
 请从以下维度进行完整的 API 设计：
 
 ### 1. API 范式与设计原则

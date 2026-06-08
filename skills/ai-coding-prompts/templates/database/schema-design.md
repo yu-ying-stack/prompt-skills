@@ -35,12 +35,11 @@
 
 请基于以下信息，设计一套完整的数据库 Schema 方案：
 
-- **业务领域**：`BUSINESS_DOMAIN`
-- **数据库类型**：`DB_TYPE`
-- **数据实体**：`DATA_ENTITIES`
-- **实体关系**：`RELATIONSHIPS`
-- **规模**：`SCALE`
-
+- **业务领域**：{{BUSINESS_DOMAIN}}
+- **数据库类型**：{{DB_TYPE}}
+- **数据实体**：{{DATA_ENTITIES}}
+- **实体关系**：{{RELATIONSHIPS}}
+- **规模**：{{SCALE}}
 请从以下维度进行完整的 Schema 设计：
 
 ### 1. 范式设计 vs 反范式设计

@@ -34,11 +34,10 @@
 
 请基于以下信息，设计一套完整的事件驱动架构方案：
 
-- **领域事件**：`DOMAIN_EVENTS`
-- **消息中间件**：`MESSAGE_BROKER`
-- **一致性要求**：`CONSISTENCY_REQUIREMENT`
-- **规模**：`SCALE`
-
+- **领域事件**：{{DOMAIN_EVENTS}}
+- **消息中间件**：{{MESSAGE_BROKER}}
+- **一致性要求**：{{CONSISTENCY_REQUIREMENT}}
+- **规模**：{{SCALE}}
 请从以下维度进行完整的架构设计：
 
 ### 1. 事件风暴建模

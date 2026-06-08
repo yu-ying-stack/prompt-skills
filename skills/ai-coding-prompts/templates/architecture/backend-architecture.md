@@ -35,12 +35,11 @@
 
 请基于以下信息，设计一套完整的后端架构方案：
 
-- **业务领域**：`BUSINESS_DOMAIN`
-- **技术栈**：`TECH_STACK`
-- **目标 QPS**：`QPS_TARGET`
-- **数据规模**：`DATA_SCALE`
-- **团队结构**：`TEAM_STRUCTURE`
-
+- **业务领域**：{{BUSINESS_DOMAIN}}
+- **技术栈**：{{TECH_STACK}}
+- **目标 QPS**：{{QPS_TARGET}}
+- **数据规模**：{{DATA_SCALE}}
+- **团队结构**：{{TEAM_STRUCTURE}}
 请从以下维度进行完整的架构设计：
 
 ### 1. 分层架构设计

@@ -35,12 +35,11 @@
 
 请基于以下信息，设计一套完整的系统设计方案：
 
-- **系统名称**：`SYSTEM_NAME`
-- **功能性需求**：`FUNCTIONAL_REQUIREMENTS`
-- **非功能性需求**：`NON_FUNCTIONAL_REQUIREMENTS`
-- **约束条件**：`CONSTRAINTS`
-- **规模**：`SCALE`
-
+- **系统名称**：{{SYSTEM_NAME}}
+- **功能性需求**：{{FUNCTIONAL_REQUIREMENTS}}
+- **非功能性需求**：{{NON_FUNCTIONAL_REQUIREMENTS}}
+- **约束条件**：{{CONSTRAINTS}}
+- **规模**：{{SCALE}}
 请按以下结构化的设计流程输出完整方案：
 
 ### 1. 需求分析

@@ -35,12 +35,11 @@
 
 请基于以下信息，设计一套完整的云原生架构方案：
 
-- **云服务商**：`CLOUD_PROVIDER`
-- **服务清单**：`SERVICES`
-- **非功能性需求**：`REQUIREMENTS`
-- **预算约束**：`BUDGET`
-- **合规要求**：`COMPLIANCE`
-
+- **云服务商**：{{CLOUD_PROVIDER}}
+- **服务清单**：{{SERVICES}}
+- **非功能性需求**：{{REQUIREMENTS}}
+- **预算约束**：{{BUDGET}}
+- **合规要求**：{{COMPLIANCE}}
 请从以下维度进行完整的架构设计：
 
 ### 1. 容器编排设计

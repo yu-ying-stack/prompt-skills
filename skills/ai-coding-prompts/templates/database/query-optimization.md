@@ -35,12 +35,11 @@
 
 请基于以下信息，对 SQL 查询进行全面的性能优化：
 
-- **待优化 SQL**：`SQL_QUERY`
-- **数据库类型**：`DB_TYPE`
-- **执行计划**：`EXPLAIN_PLAN`
-- **表统计信息**：`TABLE_STATS`
-- **现有索引**：`INDEX_INFO`
-
+- **待优化 SQL**：{{SQL_QUERY}}
+- **数据库类型**：{{DB_TYPE}}
+- **执行计划**：{{EXPLAIN_PLAN}}
+- **表统计信息**：{{TABLE_STATS}}
+- **现有索引**：{{INDEX_INFO}}
 请从以下维度进行完整的查询优化分析：
 
 ### 1. 执行计划分析

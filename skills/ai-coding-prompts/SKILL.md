@@ -1,6 +1,6 @@
 ---
 name: ai-coding-prompts
-description: "研发团队 AI 编码提示词模板库。当团队成员需要使用 AI 辅助进行代码生成、代码审查、重构、测试、文档编写、Debug排错、架构设计、数据库设计、安全审计或性能优化时触发。提供 56 个标准化 Prompt 模板，覆盖研发全流程 10 大场景，支持任意大模型。不适用于非编码类的通用对话或创意写作。"
+description: "研发团队 AI 编码提示词模板库。当团队成员需要使用 AI 辅助进行代码生成、代码审查、重构、测试、文档编写、Debug排错、架构设计、数据库设计、安全审计、性能优化、DevOps、可观测性、消息异步、需求评审、项目管理、版本控制、国际化、微前端、移动端、AI/ML 或技术升级时触发。提供 93 个标准化 Prompt 模板，覆盖研发全流程 21 大场景，支持任意大模型。不适用于非编码类的通用对话或创意写作。"
 version: 2.0.0
 author: DevTeam
 license: MIT
@@ -17,6 +17,21 @@ triggers:
   - "数据库设计"
   - "安全审计"
   - "性能优化"
+    - "CI/CD"
+    - "DevOps"
+    - "监控告警"
+    - "可观测性"
+    - "消息队列"
+    - "需求分析"
+    - "技术评审"
+    - "项目管理"
+    - "Git工作流"
+    - "国际化"
+    - "微前端"
+    - "移动端开发"
+    - "LLM"
+    - "机器学习"
+    - "技术升级"
   - "prompt模板"
   - "AI编码"
 tags:
@@ -80,7 +95,7 @@ AI 生成完整 Prompt → 输出结果
 
 ## 核心能力
 
-- 覆盖研发全流程 10 大场景、56 个标准化模板
+- 覆盖研发全流程 21 大场景、93 个标准化模板
 - 支持前端（React/Vue/Angular）、后端（Python/Java/Go/Node.js）多技术栈
 - 模板与大模型无关，适配 GPT/Claude/Gemini/通义千问等主流 AI
 - 统一团队 AI 编码规范，保障代码质量和安全
@@ -197,6 +212,76 @@ AI 生成完整 Prompt → 输出结果
 - 前端性能优化 → `templates/performance/frontend-performance.md`
 - 后端性能优化 → `templates/performance/backend-performance.md`
 - 缓存策略设计 → `templates/performance/caching-strategy.md`
+
+### 11. DevOps 与部署类（5个模板）
+适用场景：CI/CD、容器化、Kubernetes、IaC、发布治理
+- CI/CD 流程设计 → `templates/devops/ci-cd-pipeline.md`
+- Docker 镜像构建与部署 → `templates/devops/docker-deployment.md`
+- Kubernetes 部署策略 → `templates/devops/kubernetes-deployment.md`
+- 基础设施即代码 → `templates/devops/infrastructure-as-code.md`
+- 发布流程与灰度部署 → `templates/devops/release-deployment.md`
+
+### 12. 可观测性类（4个模板）
+适用场景：监控告警、Tracing、日志平台、指标设计
+- 监控告警体系设计 → `templates/observability/monitoring-alerting-design.md`
+- 分布式追踪设计 → `templates/observability/distributed-tracing.md`
+- 日志聚合与分析 → `templates/observability/log-aggregation.md`
+- 可观测性指标体系设计 → `templates/observability/observability-metrics.md`
+
+### 13. 消息与异步类（4个模板）
+适用场景：消息队列、异步任务、事件开发、死信治理
+- 消息队列架构设计 → `templates/async-messaging/message-queue-design.md`
+- 异步任务处理最佳实践 → `templates/async-messaging/async-task-processing.md`
+- 事件驱动开发 → `templates/async-messaging/event-driven-development.md`
+- 死信队列与重试机制设计 → `templates/async-messaging/dead-letter-queue-strategy.md`
+
+### 14. 需求与评审类（4个模板）
+适用场景：PRD、方案评审、架构决策、可行性评估
+- 需求分析与 PRD 生成 → `templates/requirements/requirement-analysis.md`
+- 技术方案设计评审 → `templates/requirements/design-review.md`
+- 架构决策记录（ADR）→ `templates/requirements/architecture-decision-record.md`
+- 技术可行性评估 → `templates/requirements/feasibility-assessment.md`
+
+### 15. 项目管理类（3个模板）
+适用场景：Story 拆分、工时估算、风险治理
+- 用户故事拆分 → `templates/project-management/story-breakdown.md`
+- 工作量估算 → `templates/project-management/effort-estimation.md`
+- 项目风险评估 → `templates/project-management/risk-assessment.md`
+
+### 16. 版本控制类（2个模板）
+适用场景：Git 工作流、提交规范、自动发布追踪
+- Git 工作流设计 → `templates/version-control/git-workflow-design.md`
+- 提交信息规范与自动化 → `templates/version-control/commit-message-standards.md`
+
+### 17. 国际化类（2个模板）
+适用场景：多语言方案设计、本地化测试与验证
+- 国际化方案设计 → `templates/internationalization/i18n-localization-design.md`
+- 多语言测试与验证 → `templates/internationalization/i18n-testing.md`
+
+### 18. 微前端类（3个模板）
+适用场景：微前端拆分、模块联邦、跨应用状态管理
+- 微前端架构设计 → `templates/micro-frontend/micro-frontend-architecture.md`
+- 模块联邦配置与最佳实践 → `templates/micro-frontend/module-federation-setup.md`
+- 跨应用状态管理 → `templates/micro-frontend/cross-app-state-management.md`
+
+### 19. 移动端类（3个模板）
+适用场景：React Native、移动性能、兼容性测试
+- React Native 开发最佳实践 → `templates/mobile/react-native-development.md`
+- 移动端性能优化 → `templates/mobile/mobile-performance-optimization.md`
+- 跨平台兼容性测试 → `templates/mobile/cross-platform-compatibility-test.md`
+
+### 20. AI/ML 类（5个模板）
+适用场景：LLM 应用、Prompt 工程、ML 训练与评估
+- LLM 应用开发 → `templates/ai-ml/llm-application-development.md`
+- 提示词工程设计与优化 → `templates/ai-ml/prompt-engineering-design.md`
+- 机器学习模型训练流程 → `templates/ai-ml/ml-model-training-pipeline.md`
+- 特征工程与数据预处理 → `templates/ai-ml/feature-engineering.md`
+- 模型评估与版本管理 → `templates/ai-ml/ml-model-evaluation-versioning.md`
+
+### 21. 技术升级类（2个模板）
+适用场景：主版本升级、大规模重构、迁移与回滚治理
+- 主要依赖版本升级 → `templates/technology-upgrade/major-dependency-upgrade.md`
+- 大规模重构执行策略 → `templates/technology-upgrade/large-scale-refactoring.md`
 
 ## 模板使用规范
 

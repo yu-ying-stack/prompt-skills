@@ -35,12 +35,11 @@
 
 请基于以下信息，设计一套完整的数据迁移方案：
 
-- **源数据库**：`SOURCE_DB`
-- **目标数据库**：`TARGET_DB`
-- **数据规模**：`DATA_SCALE`
-- **停机预算**：`DOWNTIME_BUDGET`
-- **一致性要求**：`CONSISTENCY_REQUIREMENT`
-
+- **源数据库**：{{SOURCE_DB}}
+- **目标数据库**：{{TARGET_DB}}
+- **数据规模**：{{DATA_SCALE}}
+- **停机预算**：{{DOWNTIME_BUDGET}}
+- **一致性要求**：{{CONSISTENCY_REQUIREMENT}}
 请从以下维度进行完整的迁移方案设计：
 
 ### 1. 迁移策略选择

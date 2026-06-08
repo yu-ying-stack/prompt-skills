@@ -35,12 +35,11 @@
 
 请基于以下信息，设计一套完整的性能优化方案：
 
-- **性能指标**：`PERF_METRIC`
-- **当前值**：`CURRENT_VALUE`
-- **目标值**：`TARGET_VALUE`
-- **系统架构**：`SYSTEM_ARCHITECTURE`
-- **技术栈**：`TECH_STACK`
-
+- **性能指标**：{{PERF_METRIC}}
+- **当前值**：{{CURRENT_VALUE}}
+- **目标值**：{{TARGET_VALUE}}
+- **系统架构**：{{SYSTEM_ARCHITECTURE}}
+- **技术栈**：{{TECH_STACK}}
 请从以下维度进行完整的性能优化设计：
 
 ### 1. 四维优化框架

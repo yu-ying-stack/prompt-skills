@@ -35,12 +35,11 @@
 
 请基于以下信息，设计一套完整的后端性能优化方案：
 
-- **性能指标**：`PERF_METRIC`
-- **当前值**：`CURRENT_VALUE`
-- **目标值**：`TARGET_VALUE`
-- **技术栈**：`TECH_STACK`
-- **架构**：`ARCHITECTURE`
-
+- **性能指标**：{{PERF_METRIC}}
+- **当前值**：{{CURRENT_VALUE}}
+- **目标值**：{{TARGET_VALUE}}
+- **技术栈**：{{TECH_STACK}}
+- **架构**：{{ARCHITECTURE}}
 请从以下维度进行完整的后端性能优化：
 
 ### 1. 算法优化

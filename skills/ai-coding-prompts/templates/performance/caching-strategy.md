@@ -35,12 +35,11 @@
 
 请基于以下信息，设计一套完整的缓存策略方案：
 
-- **缓存场景**：`CACHE_SCENARIOS`
-- **数据特征**：`DATA_CHARACTERISTICS`
-- **一致性要求**：`CONSISTENCY_REQUIREMENT`
-- **技术栈**：`TECH_STACK`
-- **规模**：`SCALE`
-
+- **缓存场景**：{{CACHE_SCENARIOS}}
+- **数据特征**：{{DATA_CHARACTERISTICS}}
+- **一致性要求**：{{CONSISTENCY_REQUIREMENT}}
+- **技术栈**：{{TECH_STACK}}
+- **规模**：{{SCALE}}
 请从以下维度进行完整的缓存策略设计：
 
 ### 1. 多级缓存架构

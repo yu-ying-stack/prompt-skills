@@ -35,12 +35,11 @@
 
 请基于以下信息，对代码进行全面的安全审计：
 
-- **代码片段**：`CODE_SNIPPET`
-- **编程语言**：`LANG`
-- **框架**：`FRAMEWORK`
-- **审计范围**：`SECURITY_SCOPE`
-- **合规要求**：`COMPLIANCE`
-
+- **代码片段**：{{CODE_SNIPPET}}
+- **编程语言**：{{LANG}}
+- **框架**：{{FRAMEWORK}}
+- **审计范围**：{{SECURITY_SCOPE}}
+- **合规要求**：{{COMPLIANCE}}
 请从以下维度进行完整的安全审计：
 
 ### 1. OWASP Top 10 审计

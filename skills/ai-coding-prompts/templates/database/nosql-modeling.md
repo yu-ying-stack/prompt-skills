@@ -34,11 +34,10 @@
 
 请基于以下信息，设计一套完整的 NoSQL 数据建模方案：
 
-- **数据库类型**：`DB_TYPE`
-- **访问模式**：`ACCESS_PATTERNS`
-- **数据实体**：`DATA_ENTITIES`
-- **规模**：`SCALE`
-
+- **数据库类型**：{{DB_TYPE}}
+- **访问模式**：{{ACCESS_PATTERNS}}
+- **数据实体**：{{DATA_ENTITIES}}
+- **规模**：{{SCALE}}
 请从以下维度进行完整的数据建模：
 
 ### 1. 查询驱动建模
