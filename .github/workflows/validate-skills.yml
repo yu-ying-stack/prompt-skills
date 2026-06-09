@@ -1,0 +1,22 @@
+name: Validate SKILLs
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited]
+
+jobs:
+  validate-skills:
+    name: Validate SKILL frontmatter and examples
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run SKILL validation
+        run: |
+          python scripts/ci/validate_skills.py
