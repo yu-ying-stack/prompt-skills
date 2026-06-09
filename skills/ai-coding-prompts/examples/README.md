@@ -19,6 +19,10 @@
 - [LLM 应用开发示例](example-llm-application-development.md)
 - [主要依赖升级示例](example-major-dependency-upgrade.md)
 
+## 新增外部 Skill 示例
+
+- 视觉转 Vue 示例 → [skills/visual-to-vue-code/examples/example-visual-to-vue-1.md](skills/visual-to-vue-code/examples/example-visual-to-vue-1.md)
+
 ## 使用建议
 
 1. 先选择最接近实际场景的模板和示例。

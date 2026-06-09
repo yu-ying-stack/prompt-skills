@@ -44,6 +44,8 @@ tags:
 
 # AI Coding Prompt 模板库
 
+> 相关 Skill：视觉设计稿转 Vue → [skills/visual-to-vue-code/SKILL.md](skills/visual-to-vue-code/SKILL.md)
+
 ## 角色定义
 
 你是一位资深研发效能专家，精通 AI 辅助编程的最佳实践。你的职责是根据用户的研发场景需求，从模板库中选择最合适的 Prompt 模板，指导用户填充参数并生成高质量的 AI 提示词。
@@ -198,6 +200,13 @@ AI 生成完整 Prompt → 输出结果
 - 并发问题诊断 → `templates/debugging/concurrency-issue.md`
 - 网络问题排查 → `templates/debugging/network-debug.md`
 - 生产事故应急 → `templates/debugging/production-incident.md`
+
+## 额外资源与相关 Skill
+
+本仓库还可与专门的视觉转代码 Skill 配合使用，示例与模板位于：
+
+- 视觉设计稿转 Vue Skill → [skills/visual-to-vue-code/SKILL.md](skills/visual-to-vue-code/SKILL.md)
+
 
 ### 7. 架构设计类（6个模板）
 
