@@ -22,7 +22,6 @@ npx skills add yu-ying-stack/prompt-skills
 
 - [![CI: validate-skills](https://github.com/yu-ying-stack/prompt-skills/actions/workflows/validate-skills.yml/badge.svg)](https://github.com/yu-ying-stack/prompt-skills/actions/workflows/validate-skills.yml)  validate-skills — 在 PR 提交/更新 时运行，校验每个 `SKILL.md` 的 frontmatter 与示例文件是否存在。
 
-
 安装后，在任意支持的 AI 代理中自然语言描述需求即可使用：
 
 ```text

@@ -52,7 +52,6 @@
 - Stage3 响应式网格： `examples/stage3-responsive-grid.md`
 - Stage4 完整项目样例： `examples/stage4-full-sample.md`
 
-
 ## 约束与注意事项
 
 - 输出必须包含 Visual IR（JSON）与自检报告

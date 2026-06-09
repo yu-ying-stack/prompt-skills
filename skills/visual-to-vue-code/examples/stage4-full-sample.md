@@ -3,6 +3,7 @@
 目标：提供一个更完整的最小项目示例，供 Stage4 直接输出并用于 smoke test。
 
 包含文件（示例）：
+
 - `package.json`（见 templates/stage4-samples.md）
 - `vite.config.ts`（简化）
 - `tsconfig.json`（简化）
