@@ -118,6 +118,12 @@ skills/
     │   ├── ai-ml/            (5个)
     │   └── technology-upgrade/ (2个)
     └── examples/             # 使用示例与新模板导航
+
+skills/
+└── visual-to-vue-code/      # 将视觉设计转换为 Vue 3 + Vite 项目的 Skill
+    ├── SKILL.md              # Skill 入口（元数据 + 使用指南）
+    ├── templates/            # Stage1–Stage5 的 Prompt 模板与片段
+    └── examples/             # 示例输入/输出（多种场景）
 ```
 
 ## 安全规范
