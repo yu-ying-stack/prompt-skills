@@ -1,5 +1,8 @@
 ---
 name: ai-coding-prompts
+display_name: AI 编码提示词模板库
+examples:
+    - examples/README.md
 description: "研发团队 AI 编码提示词模板库。当团队成员需要使用 AI 辅助进行代码生成、代码审查、重构、测试、文档编写、Debug排错、架构设计、数据库设计、安全审计、性能优化、DevOps、可观测性、消息异步、需求评审、项目管理、版本控制、国际化、微前端、移动端、AI/ML 或技术升级时触发。提供 93 个标准化 Prompt 模板，覆盖研发全流程 21 大场景，支持任意大模型。不适用于非编码类的通用对话或创意写作。"
 version: 2.0.0
 author: DevTeam
