@@ -341,6 +341,43 @@ AI 生成完整 Prompt → 输出结果
 - 主要依赖版本升级 → `templates/technology-upgrade/major-dependency-upgrade.md`
 - 大规模重构执行策略 → `templates/technology-upgrade/large-scale-refactoring.md`
 
+### 新增模板（2026-06-17）
+
+以下模板已于 2026-06-17 添加以扩充库的覆盖面：
+
+- `templates/ai-ml/embedding-indexing-guidelines.md`
+- `templates/architecture/cost-optimization-cloud.md`
+- `templates/architecture/scalability-patterns.md`
+- `templates/async-messaging/stream-processing-patterns.md`
+- `templates/code-generation/api-pagination.md`
+- `templates/code-generation/api-pagination-client.md`
+- `templates/code-generation/graphql-schema.md`
+- `templates/code-generation/openapi-from-code.md`
+- `templates/code-review/accessibility-review.md`
+- `templates/code-review/performance-review.md`
+- `templates/database/index-advisory.md`
+- `templates/debugging/tracing-correlation-debug.md`
+- `templates/devops/ci-parallelization.md`
+- `templates/devops/helm-chart-review.md`
+- `templates/documentation/api-versioning-doc.md`
+- `templates/documentation/design-system-guidelines.md`
+- `templates/internationalization/translation-pipeline.md`
+- `templates/micro-frontend/micro-frontend-testing.md`
+- `templates/observability/dashboard-design.md`
+- `templates/observability/slo-and-error-budget.md`
+- `templates/performance/image-optimization.md`
+- `templates/performance/web-vitals-improvement.md`
+- `templates/project-management/release-planning-checklist.md`
+- `templates/refactoring/dependency-decomposition.md`
+- `templates/refactoring/typescript-migration.md`
+- `templates/requirements/acceptance-criteria-generator.md`
+- `templates/security/oauth2-implementation.md`
+- `templates/security/secret-rotation-plan.md`
+- `templates/testing/contract-test.md`
+- `templates/testing/flaky-e2e-fix.md`
+- `templates/testing/mock-data-generator.md`
+- `templates/testing/unit-test-template.md`
+
 ## 模板使用规范
 
 使用模板前，请阅读：
